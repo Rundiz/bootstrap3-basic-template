@@ -1,0 +1,83 @@
+/*
+ * @author Vee W.
+*/
+
+
+
+$footer_height: 40px;
+
+
+
+html, body {
+	height: 100%;
+}
+body {
+	padding-top: 50px;
+}
+
+
+
+.content-wrap {
+	height: auto;
+	margin: 0 auto (-1*$footer_height);
+	min-height: 100%;
+	padding: 0 0 $footer_height;
+}
+
+
+
+.example-block {
+	background: rgba(255,255,255,0.7);
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+
+
+.footer-wrap {
+	background: rgba(210,210,210,0.4);
+	font-size: 12px;
+	height: $footer_height;
+	
+	.text-muted {
+		color: #aaa;
+		margin: 10px 0;
+	}
+}
+
+
+
+.home-page-feature-thumbnails img.img-responsive {
+	margin: 0 auto;
+}
+.home-page-jumbotron {
+	margin-top: 30px;
+}
+
+
+
+.navbar-sample-block {
+	height: 100px;
+	position: relative;
+	
+	.navbar-fixed-bottom {
+		position: absolute;
+		z-index: 2;
+	}
+	
+	.navbar-fixed-top {
+		position: absolute;
+		z-index: 2;
+	}
+}
+
+
+
+.row-with-textspace {
+	margin-bottom: 10px;
+}
+.row-with-vspace {
+	margin-bottom: 20px;
+}

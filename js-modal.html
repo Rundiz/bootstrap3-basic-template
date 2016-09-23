@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Bootstrap 3 Basic template</title>
+		<meta name="description" content="Bootstrap Line Thai">
+		<meta name="viewport" content="width=device-width">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<script src="js/modernizr-3.3.1.js"></script>
+		<script src="js/respond.min.js"></script><!--this make media query work in IE 8-->
+	</head>
+	
+	<body> 
+
+		<main class="content-wrap" role="main">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bslinethai-navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="./">BS3 Basic template</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bslinethai-navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">CSS <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="typography.html">Typography</a></li>
+									<li><a href="code.html">Code</a></li>
+									<li><a href="tables.html">Tables</a></li>
+									<li><a href="forms.html">Forms</a></li>
+									<li><a href="buttons.html">Buttons</a></li>
+									<li><a href="helpers.html">Helpers</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="dropdowns.html">Dropdowns</a></li>
+									<li><a href="button-groups.html">Button groups</a></li>
+									<li><a href="button-dropdowns.html">Button dropdowns</a></li>
+									<li><a href="input-groups.html">Input groups</a></li>
+									<li><a href="navs.html">Navs</a></li>
+									<li><a href="navbar.html">Navbar</a></li>
+									<li><a href="breadcrumb.html">Breadcrumb</a></li>
+									<li><a href="pagination.html">Pagination</a></li>
+									<li><a href="label.html">Label</a></li>
+									<li><a href="badges.html">Badges</a></li>
+									<li><a href="jumbotron.html">Jumbotron</a></li>
+									<li><a href="page-header.html">Page header</a></li>
+									<li><a href="thumbnails.html">Thumbnails</a></li>
+									<li><a href="alerts.html">Alerts</a></li>
+									<li><a href="progress-bars.html">Progress bars</a></li>
+									<li><a href="media-object.html">Media object</a></li>
+									<li><a href="list-group.html">List group</a></li>
+									<li><a href="panels.html">Panels</a></li>
+									<li><a href="wells.html">Wells</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Javascript <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="js-modal.html">Modal</a></li>
+									<li><a href="js-tooltip.html">Tooltip</a></li>
+									<li><a href="js-popover.html">Popover</a></li>
+									<li><a href="js-collapse.html">Collapse</a></li>
+									<li><a href="js-carousel.html">Carousel</a></li>
+								</ul>
+							</li>
+							<li><a href="credits.html">Credits</a></li>
+						</ul>
+					</div><!-- .navbar-collapse -->
+				</div><!-- .container -->
+			</nav>
+			<!--end navbar header--> 
+			
+			<div class="container">
+				<div class="row row-with-vspace">
+					<article class="col-xs-12">
+						<header class="page-header">
+							<h1>Modal</h1>
+						</header>
+						
+						
+						<h2>Demo</h2>
+						<div class="example-block">
+							<button class="btn btn-default" data-toggle="modal" data-target="#myModal">Normal modal</button>
+							<button class="btn btn-default" data-toggle="modal" data-target=".bs-modal-lg">Large modal</button>
+							<button class="btn btn-default" data-toggle="modal" data-target=".bs-modal-sm">Small modal</button>
+							<!-- Modal -->
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<h4 class="modal-title" id="myModalLabel">Modal title | ไตเติล</h4>
+										</div>
+										<div class="modal-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit tincidunt iaculis. Phasellus hendrerit sem non dui commodo, vel iaculis nulla tincidunt.</p>
+											<p>ช็อป โก๊ะ สกรัม เบนโตะสหรัฐทัวร์นาเมนท์ มั้งซามูไรพาสปอร์ตภควัทคีตาดัมพ์ฟีเวอร์ สตาร์ โฟล์คเทคโนแครตซิ่งราเมน ซาฟารีท็อปบู๊ทมยุราภิรมย์คอนเซปต์ ดัมพ์โอเปร่า ยังไง.</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-primary">Save changes</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Large modal -->
+							<div class="modal fade bs-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<h4 class="modal-title" id="myModalLabel">Modal title | ไตเติล</h4>
+										</div>
+										<div class="modal-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit tincidunt iaculis. Phasellus hendrerit sem non dui commodo, vel iaculis nulla tincidunt.</p>
+											<p>ช็อป โก๊ะ สกรัม เบนโตะสหรัฐทัวร์นาเมนท์ มั้งซามูไรพาสปอร์ตภควัทคีตาดัมพ์ฟีเวอร์ สตาร์ โฟล์คเทคโนแครตซิ่งราเมน ซาฟารีท็อปบู๊ทมยุราภิรมย์คอนเซปต์ ดัมพ์โอเปร่า ยังไง.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Small modal -->
+							<div class="modal fade bs-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-sm">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<h4 class="modal-title" id="myModalLabel">Modal title | ไตเติล</h4>
+										</div>
+										<div class="modal-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit tincidunt iaculis. Phasellus hendrerit sem non dui commodo, vel iaculis nulla tincidunt.</p>
+											<p>ช็อป โก๊ะ สกรัม เบนโตะสหรัฐทัวร์นาเมนท์ มั้งซามูไรพาสปอร์ตภควัทคีตาดัมพ์ฟีเวอร์ สตาร์ โฟล์คเทคโนแครตซิ่งราเมน ซาฟารีท็อปบู๊ทมยุราภิรมย์คอนเซปต์ ดัมพ์โอเปร่า ยังไง.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+			
+		</main>
+
+		<footer class="footer-wrap">
+			<div class="container">
+				<div class="col-xs-12">
+					<p class="text-muted">&copy rundiz - Bootstrap 3 Basic template.</p>
+				</div>
+			</div>
+		</footer> 
+
+
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html> 
