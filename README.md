@@ -1,3 +1,5 @@
+This project is no longer maintained.
+
 # Bootstrap 3 Basic template
 
 This is the template files that contain **all** Bootstrap 3 styles and classes for theme designer to start design their Bootstrap 3 theme.<br>
